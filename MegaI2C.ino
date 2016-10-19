@@ -138,7 +138,7 @@ ISR(TIMER1_OVF_vect) {        // function will be call every 0.1 seconds
   CalculateSteer();
   SetCarDirection();
   CalculateBearing();
-  SetCarSpeed();
+  SetCarSpeed(); //
 }
 
 
